@@ -118,6 +118,7 @@ nav{
     font-size: 12px;
    }
    .nav3 h4 i{
+    color: white;
         font-size: 18px;
    }
    .nav2{
@@ -176,10 +177,6 @@ nav{
     height: 458px;
         width: 346px;
   }
-
-  #main1 .box{
-    padding: 2px;
-  }
     
     #lower .src img{
         width: 350px;
@@ -197,7 +194,7 @@ nav{
 
 @media (max-width:1173px) {
     .nav2 h4{
-        font-size: 15px;
+        font-size: 14px;
     }
     .nav1 img{
     height: 35px;
@@ -205,6 +202,7 @@ nav{
     
 }
 @media (max-width:376px) {
+
     .nav3 .ri-notification-3-line{
    display: none;
     }
@@ -276,7 +274,7 @@ nav{
 
 .serv h2{
     font-family: neue;
-    font-size: 10vw;
+    font-size: 4vw;
     color: cyan;
     text-align: center;
 }
@@ -364,6 +362,7 @@ nav{
         height: 750px;
         width: 100%; 
          background: rgba(1, 13, 37, 0.477);
+        
     }
     
    
@@ -374,7 +373,9 @@ nav{
         display: flex;
         align-items: self-start;
         justify-content: space-evenly;
+         animation: scroll 30s linear infinite;
     }
+    
     .src-con{
         border-radius: 12px;
         height: 600px;
@@ -409,6 +410,8 @@ nav{
         height: 720px;
         width: 100%;
     }
+
+
 
 body::-webkit-scrollbar{
     background: transparent;
@@ -487,6 +490,7 @@ textarea {
     background-color: #218838;
 }
 
+
 @keyframes scroll{
     0% {
         transform: translateX(0);
@@ -495,3 +499,6 @@ textarea {
         transform: translateX(-50%);
     }
 }
+#lower .src:hover{
+        animation-play-state: paused;
+    }
