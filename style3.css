@@ -130,7 +130,8 @@ nav{
 }
 
     @media (max-width:600px) {
-    #lower .src img{
+      
+        #lower .src img{
         width: 300px;
         height: 200px;
     }
@@ -142,12 +143,13 @@ nav{
         height: 300px;
       }
 }
-@media (max-width:386px) {
-  #main1 .box{
-    padding: 0px;
-  }
 
+@media (max-width:520px){
+   
+}
+@media (max-width:386px) {
  
+    
     #lower .src img{
         width: 350px;
         height: 200px;
@@ -228,10 +230,7 @@ nav{
         font-size: 40px;
     }
 
-    .serv h2{
-        font-size: 30px;
-    }
-
+   
 }
 
 .serv{
@@ -246,9 +245,8 @@ nav{
 
 .serv h2{
     font-family: neue;
-    font-size: 65px;
+    font-size: 5.5vw;
     color: cyan;
-    
     text-align: center;
 }
 .serv .red{
@@ -256,7 +254,7 @@ nav{
 }
 
  #main1{
-    position: relative;
+      position: relative;
        padding: 20px;
         background: rgba(1, 87, 173, 0.579);
         width: 100%;
