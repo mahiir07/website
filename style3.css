@@ -68,7 +68,8 @@ nav{
     
 }
 
-.nav2 h4{
+.nav2 a{
+    text-decoration: none;
     font-size: 20px;
     color: white;
 }
@@ -172,35 +173,11 @@ nav{
         height: 400px;
       }
 }
-@media (max-width:386px) {
-  #main1 .box{
-    height: 458px;
-        width: 346px;
-  }
-    
-    #lower .src img{
-        width: 350px;
-        height: 200px;
-    }
-     #lower .src p{
-        font-size: 11px;
-    }
-      #lower .src-con{
-        width:350px;
-        height: 300px;
-      }
-}
 
 
-@media (max-width:1173px) {
-    .nav2 h4{
-        font-size: 14px;
-    }
-    .nav1 img{
-    height: 35px;
-   }
-    
-}
+
+
+
 @media (max-width:376px) {
 
     .nav3 .ri-notification-3-line{
@@ -215,11 +192,46 @@ nav{
 }
 @media (max-width:400px) {
     .nav3 .ri-notification-3-line{
-   display: none;
+   display: block;
     }
     .nav3 .ri-phone-line{
         display: none;
     }
+
+
+    #lower .src img{
+        width: 340px;
+        height: 200px;
+    }
+     #lower .src p{
+        font-size: 11px;
+    }
+      #lower .src-con{
+        width:340px;
+        height: 300px;
+      }   
+}
+
+@media (max-width:700px) {
+    #banner h1{
+        padding: 15px 20px;
+       
+    }
+
+}
+@media (max-width:930px) {
+    .nav2 h4{
+        font-size: 15px;
+    }
+    .nav1 img{
+       height:29px;
+    }
+     nav{
+    padding: 15px 15px;
+   }
+   #banner h1{
+    padding: 10px 10px;
+   }
 }
 
 
@@ -239,14 +251,12 @@ nav{
 #banner h1{
     padding: 10px;
     border-radius: 30px;
-    background: #a4a2a292;
+    background: #a4a2a244;
     font-family: neue;
-    line-height: 1.2;
-    height: 250px;
-    width: 70vw;
+    line-height: 1.1;
     color: rgb(236, 240, 240);
     text-shadow: 2px 3px #000;
-    font-size: 60px;
+    font-size: 50px;
     position: absolute;
     text-align: center;
    
@@ -269,12 +279,12 @@ nav{
     justify-content: center;
     height: 170px;
     width: 100%;
-       background: rgba(1, 87, 173, 0.579);
+       
 }
 
 .serv h2{
     font-family: neue;
-    font-size: 4vw;
+    font-size: 40px;
     color: cyan;
     text-align: center;
 }
@@ -283,7 +293,6 @@ nav{
 }
 
  #main1{
-      position: relative;
        padding: 20px;
         background: rgba(1, 87, 173, 0.579);
         width: 100%;
@@ -301,6 +310,7 @@ nav{
        font-weight: 100;
      }
      #main1 .box{
+       
         backdrop-filter: blur(10px);
         padding: 2px;
         border-radius: 10px;
@@ -341,16 +351,19 @@ nav{
     }
 
      .Tech{
+        padding: 40px;
+        display: flex;
+        width: 100%;
         display: flex;
         align-items:center;
         justify-content: center;
         text-align: center;
         color: cyan;
-        padding: 70px;
-        font-size: 45px;
+        font-size: 30px;
         font-weight: 400;
          background: rgba(21, 21, 21, 0.196);
          font-family: hell;
+         text-align: center;
     }
 
     #lower{
@@ -373,7 +386,7 @@ nav{
         display: flex;
         align-items: self-start;
         justify-content: space-evenly;
-         animation: scroll 30s linear infinite;
+         animation: scroll 15s linear infinite;
     }
     
     .src-con{
