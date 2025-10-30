@@ -144,8 +144,32 @@ nav{
       }
 }
 
-@media (max-width:520px){
-   
+@media (max-width:815px){
+          #lower .src img{
+        width: 500px;
+        height: 400px;
+    }
+     #lower .src p{
+        font-size: 11px;
+    }
+      #lower .src-con{
+        width:500px;
+        height: 500px;
+      }
+}
+
+@media (max-width:551px){
+          #lower .src img{
+        width: 450px;
+        height: 300px;
+    }
+     #lower .src p{
+        font-size: 11px;
+    }
+      #lower .src-con{
+        width:450px;
+        height: 400px;
+      }
 }
 @media (max-width:386px) {
   #main1 .box{
