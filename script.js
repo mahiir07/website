@@ -8,7 +8,6 @@
 
 
 
-
 // scripts.js
 
 document.getElementById('contactForm').addEventListener('submit', function (event) {

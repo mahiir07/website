@@ -30,7 +30,7 @@ html,body{
   color: rgb(62, 60, 60);
 }
 nav{
-    position: fixed;
+   
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
@@ -109,7 +109,7 @@ nav{
 
 @media (max-width:600px) {
    nav{
-    padding: 10px 20px;
+    padding: 5px 20px;
    }
    .nav1 img{
     height: 30px;
@@ -128,6 +128,40 @@ nav{
         color: black;
     }
 }
+
+    @media (max-width:600px) {
+    #lower .src img{
+        width: 300px;
+        height: 200px;
+    }
+     #lower .src p{
+        font-size: 11px;
+    }
+      #lower .src-con{
+        width:300px;
+        height: 300px;
+      }
+}
+@media (max-width:386px) {
+  #main1 .box{
+    padding: 0px;
+  }
+
+ 
+    #lower .src img{
+        width: 350px;
+        height: 200px;
+    }
+     #lower .src p{
+        font-size: 11px;
+    }
+      #lower .src-con{
+        width:350px;
+        height: 300px;
+      }
+}
+
+
 @media (max-width:1173px) {
     .nav2 h4{
         font-size: 15px;
@@ -148,7 +182,7 @@ nav{
     height: 28px;
    }
 }
-@media (max-width:296px) {
+@media (max-width:400px) {
     .nav3 .ri-notification-3-line{
    display: none;
     }
@@ -156,6 +190,7 @@ nav{
         display: none;
     }
 }
+
 
 #banner{
     display: flex;
@@ -177,13 +212,26 @@ nav{
     font-family: neue;
     line-height: 1.2;
     height: 250px;
-    width: 800px;
+    width: 70vw;
     color: rgb(236, 240, 240);
     text-shadow: 2px 3px #000;
     font-size: 60px;
     position: absolute;
     text-align: center;
    
+}
+
+/*#banner @media for responsive */
+@media (max-width:929px) {
+    #banner h1{
+        padding: 20px 10px;
+        font-size: 40px;
+    }
+
+    .serv h2{
+        font-size: 30px;
+    }
+
 }
 
 .serv{
@@ -208,6 +256,7 @@ nav{
 }
 
  #main1{
+    position: relative;
        padding: 20px;
         background: rgba(1, 87, 173, 0.579);
         width: 100%;
@@ -303,6 +352,9 @@ nav{
         width: 800px;
         background: rgba(81, 69, 69, 0.434);
     }
+
+   
+
 .src-con p{
     color: whitesmoke;
     font-size: 20px;
@@ -405,6 +457,7 @@ textarea {
 .submit-button:hover {
     background-color: #218838;
 }
+
 @keyframes scroll{
     0% {
         transform: translateX(0);
