@@ -148,7 +148,14 @@ nav{
    
 }
 @media (max-width:386px) {
- 
+  #main1 .box{
+    height: 458px;
+        width: 346px;
+  }
+
+  #main1 .box{
+    padding: 2px;
+  }
     
     #lower .src img{
         width: 350px;
@@ -245,7 +252,7 @@ nav{
 
 .serv h2{
     font-family: neue;
-    font-size: 5.5vw;
+    font-size: 10vw;
     color: cyan;
     text-align: center;
 }
